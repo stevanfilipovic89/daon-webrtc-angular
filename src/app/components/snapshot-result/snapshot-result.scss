@@ -1,0 +1,22 @@
+.snapshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  &__container {
+    border: 2px solid #fbb931;
+    border-radius: 20px;
+    padding: 30px;
+    width: min(100% - 32px, 800px);
+    margin-inline: auto;
+    p {
+      font-size: 22px;
+      text-align: center;
+    }
+    img {
+      border-radius: 20px;
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+}

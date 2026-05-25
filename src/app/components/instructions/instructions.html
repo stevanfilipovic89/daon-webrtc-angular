@@ -1,0 +1,13 @@
+<section class="instructions">
+  <div class="instructions__wrapper">
+    <h1>Video capture</h1>
+    <p>
+      Click the button to allow camera access. A photo will be taken automatically after a few
+      seconds.
+    </p>
+    @if (hasCapturedImage()) {
+      <p>You can click the button again to retake the photo.</p>
+    }
+    <button type="button" (click)="onStartClick()">Start</button>
+  </div>
+</section>

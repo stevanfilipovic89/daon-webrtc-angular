@@ -1,0 +1,8 @@
+<section class="snapshot">
+  <div class="snapshot__container">
+    <p>{{ capturedImage() ? 'Captured image' : 'Captured image will be shown in this section' }}</p>
+    @if (capturedImage()) {
+      <img [src]="capturedImage()" alt="Captured snapshot" />
+    }
+  </div>
+</section>

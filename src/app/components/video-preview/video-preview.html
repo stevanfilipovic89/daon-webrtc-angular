@@ -1,0 +1,15 @@
+<section class="video-preview">
+  <div class="video-preview__container">
+    @if (isLoading()) {
+      <img src="/camera-loader.svg" alt="Camera loader" class="loader" />
+    }
+    @if (errorMessage()) {
+      <p class="error-message">{{ errorMessage() }}</p>
+    } @else {
+      @if (countdown() !== null) {
+        <p class="countdown-message">Snapshot in {{ countdown() }}</p>
+      }
+      <video #videoElement autoplay muted playsinline></video>
+    }
+  </div>
+</section>

@@ -1,0 +1,26 @@
+.video-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  &__container {
+    width: min(100% - 32px, 800px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    video {
+      width: 100%;
+       transform: scaleX(-1);
+    }
+    .loader {
+      width: 50%;
+    }
+    .error-message {
+      color: red;
+    }
+    .countdown-message {
+      color: #fbb931;
+    }
+  }
+}

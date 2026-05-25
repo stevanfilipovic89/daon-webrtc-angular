@@ -1,0 +1,27 @@
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__wrapper {
+    text-align: center;
+    h1 {
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+    button {
+      padding: 0.75em 1.5em;
+      font-size: 1rem;
+      background-color: #fbb931;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}
