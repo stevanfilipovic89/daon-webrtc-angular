@@ -24,7 +24,7 @@ A small Angular single-page application that uses the browser WebRTC `getUserMed
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/stevanfilipovic89/daon-webrtc-angular>
 ```
 
 Open the project folder:
